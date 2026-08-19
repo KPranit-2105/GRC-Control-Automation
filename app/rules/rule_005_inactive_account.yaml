@@ -1,0 +1,7 @@
+rule_id: RULE-005
+name: Inactive Privileged Account
+description: Detect privileged accounts with no login activity for over 30 days.
+severity: MEDIUM
+recommended_action: Notify user and manager, and disable account if inactive for an additional 7 days.
+due_days: 7
+owner: IAM-Operations

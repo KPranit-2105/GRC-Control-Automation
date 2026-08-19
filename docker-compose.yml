@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  grc-engine:
+    build: .
+    container_name: grc-control-automation
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - DATABASE_URL=sqlite:///./grc_control.db
+    volumes:
+      - ./grc_control.db:/app/grc_control.db
+    restart: unless-stopped

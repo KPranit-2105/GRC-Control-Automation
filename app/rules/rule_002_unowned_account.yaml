@@ -1,0 +1,7 @@
+rule_id: RULE-002
+name: Privileged Account Has No Owner
+description: Detect human privileged accounts that are not correlated to any active HR identity.
+severity: HIGH
+recommended_action: Identify the business owner or disable the unowned user account.
+due_days: 3
+owner: IAM-Operations

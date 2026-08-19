@@ -1,0 +1,7 @@
+rule_id: RULE-003
+name: Privileged Access Exists Without Recent Review
+description: Detect privileged entitlements that have not been reviewed within the maximum SLA threshold (90 days).
+severity: HIGH
+recommended_action: Trigger an urgent manager access re-certification review.
+due_days: 5
+owner: GRC-Analyst

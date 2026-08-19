@@ -1,0 +1,7 @@
+rule_id: RULE-006
+name: Privileged Access Granted Without Approval
+description: Detect privileged access grants lacking a recorded change management approval or Jira ticket reference.
+severity: HIGH
+recommended_action: Obtain retroactive manager approval or remove unapproved entitlement.
+due_days: 2
+owner: SecOps-Audit

@@ -1,0 +1,7 @@
+rule_id: RULE-001
+name: Terminated User Retains Privileged Access
+description: Detect active privileged entitlements linked to employees marked as terminated in HRIS.
+severity: CRITICAL
+recommended_action: Immediately revoke all cloud credentials and IAM roles for the terminated user.
+due_days: 1
+owner: SecOps-OnCall

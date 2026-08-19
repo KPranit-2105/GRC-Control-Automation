@@ -1,0 +1,7 @@
+rule_id: RULE-007
+name: Manager Failed to Complete Review
+description: Detect assigned manager access reviews that have breached SLA (past due date).
+severity: MEDIUM
+recommended_action: Escalate review task to Department VP and flag unacted access grants for auto-revocation.
+due_days: 2
+owner: GRC-Lead

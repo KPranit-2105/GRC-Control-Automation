@@ -1,0 +1,7 @@
+rule_id: RULE-004
+name: Privileged Access Inconsistent With Job Role
+description: Detect high-privilege administrative access assigned to non-technical or non-engineering departments.
+severity: HIGH
+recommended_action: Request formal business justification from the department head or revoke entitlement.
+due_days: 3
+owner: GRC-Analyst
